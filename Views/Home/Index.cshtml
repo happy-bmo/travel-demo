@@ -1,0 +1,97 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<section class="hero-video">
+    <video autoplay muted loop playsinline class="hero-bg">
+        <source src="~/assets/1eiWYPKI.mp4" type="video/mp4" />
+    </video>
+    <div class="overlay"></div>
+    <div class="hero-content">
+        <h1>LUXURY INB</h1>
+        <p>Viet Nam, come to feel</p>
+    </div>
+</section>
+<secion class="itinerary">
+    <div class="container">
+        <h1 class="title">Itinerary</h1>
+        <hr />
+        <div class="itinerary-toggle">
+            <button id="expandAllBtn" class="toggle-itinerary-btn btn btn-secondary" type="button">
+                Expand All
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <path d="M297.4 566.6C309.9 579.1 330.2 579.1 342.7 566.6L502.7 406.6C515.2 394.1 515.2 373.8 502.7 361.3C490.2 348.8 469.9 348.8 457.4 361.3L352 466.7L352 96C352 78.3 337.7 64 320 64C302.3 64 288 78.3 288 96L288 466.7L182.6 361.3C170.1 348.8 149.8 348.8 137.3 361.3C124.8 373.8 124.8 394.1 137.3 406.6L297.3 566.6z" />
+                </svg>
+            </button>
+            <button id="collapseAllBtn" class="toggle-itinerary-btn btn btn-secondary" type="button">
+                Collapse All
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <path d="M342.6 81.4C330.1 68.9 309.8 68.9 297.3 81.4L137.3 241.4C124.8 253.9 124.8 274.2 137.3 286.7C149.8 299.2 170.1 299.2 182.6 286.7L288 181.3L288 552C288 569.7 302.3 584 320 584C337.7 584 352 569.7 352 552L352 181.3L457.4 286.7C469.9 299.2 490.2 299.2 502.7 286.7C515.2 274.2 515.2 253.9 502.7 241.4L342.7 81.4z" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                        DAY 1: HANOI ARRIVAL
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse multi-collapse" aria-labelledby="headingOne">
+                    <div class="accordion-body">
+                        <p class="accordion-content">
+                            Arrive in Hanoi and transfer to your hotel. The rest of the day is at your leisure. Overnight in Hanoi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                        DAY 2: HANOI HISTORY & CULTURAL TALES
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse multi-collapse" aria-labelledby="headingTwo">
+                    <div class="accordion-body">
+                        <p class="accordion-content">
+                            Begin the morning with a visit the Ho Chi Minh Complex, which includes Ho Chi Minh’s Mausoleum (outside), the final resting place of the beloved national hero, Uncle Ho, and President Ho Chi Minh’s stilt house where he lived off and on from 1958 to 1969. At 09:30 you’ll visit the One Pillar Pagoda, which is actually a group of structures that collectively make up a pagoda built over the water in the middle of a square lake.
+                            After that, you’ll have a chance to explore the Tran Quoc Pagoda on the shore of west lake. From there, it’s onto the Temple of literature, which was Viet nam’s first university and is dedicated to Confucius. Stop at the University of Vietnam built in 1076.
+                            After lunch, enjoy cyclo ride through the busting Old Quarter, visit the Lake of the Returned Sword and Ngoc Son Temple at the late evening of the day Overnight in Hanoi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                        DAY 3: HALONG BAY CRUISE
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse multi-collapse" aria-labelledby="headingThree">
+                    <div class="accordion-body">
+                        <p class="accordion-content">
+                            After breakfast leave Hanoi for an overnight boat trip on Halong Bay. Journey there through the rich farmlands of the Red River Delta, observing everyday life of Vietnamese villagers along the way.. Arrive in Halong City late morning and board the boat for the overnight journey into the Bay. Lunch will be served en route, whilst cruising along the bay’s iconic limestone formations. Towards the end of the day set anchor for the night. As the sun sets over the bay, dinner is served on board with fresh seafood, salads, and fruits. Overnight in Halong Bay.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</secion>
+
+<script>
+    document.getElementById("expandAllBtn").addEventListener("click", function () {
+        document.querySelectorAll(".multi-collapse").forEach(function (el) {
+            let collapse = bootstrap.Collapse.getOrCreateInstance(el, { toggle: false });
+            collapse.show();
+        });
+    });
+
+    document.getElementById("collapseAllBtn").addEventListener("click", function () {
+        document.querySelectorAll(".multi-collapse").forEach(function (el) {
+            let collapse = bootstrap.Collapse.getOrCreateInstance(el, { toggle: false });
+            collapse.hide();
+        });
+    });
+</script>

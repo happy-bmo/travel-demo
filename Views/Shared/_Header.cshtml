@@ -1,0 +1,40 @@
+﻿@{
+    var currency = ViewData["Currency"] as string ?? "$DOL";
+}
+
+<header class="header">
+    <nav class="navbar container">
+        <div class="navbar-left">
+            <a href="/">
+                <img style="width: 110px; height:110px" class="header-logo" src="~/assets/X_4kVLY-.jpg" alt="logo" />
+            </a>
+        </div>
+
+        <div class="navbar-right">
+            <div class="currency dropdown">
+                <button class="currency-toggle btn btn-secondary dropdown-toggle" type="button"
+                        id="dropdownMenuButton"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                    @currency
+                </button>
+                <ul class="currency-menu dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><button class="currency-item dropdown-item">$DOL</button></li>
+                    <li><button class="currency-item dropdown-item">$VND</button></li>
+                    <li><button class="currency-item dropdown-item">€EURO</button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+    <script>
+        const currencyItems = document.querySelectorAll('.currency-item');
+        const dropdownButton = document.getElementById('dropdownMenuButton');
+
+           currencyItems.forEach(item => {
+               item.addEventListener('click', () => {
+                   dropdownButton.textContent = item.textContent;
+               });
+           });
+    </script>
