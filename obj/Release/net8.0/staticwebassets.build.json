@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WWgkAfn0Px+7eUGCDRQ64H9WlHX3FYOehRAFTc4JT5I=",
+  "Hash": "UPdJGTI9GKqHkdeZpCzh5aTWJtMuEddfJjx4u6YBy9U=",
   "Source": "Demo",
   "BasePath": "_content/Demo",
   "Mode": "Default",
@@ -55,12 +55,12 @@
       "OriginalItemSpec": "D:\\CS\\Demo\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\Demo.bundle.scp.css"
     },
     {
-      "Identity": "D:\\CS\\Demo\\wwwroot\\assets\\1eiWYPKI.mp4",
+      "Identity": "D:\\CS\\Demo\\wwwroot\\assets\\8D6-QPBy.mp4",
       "SourceId": "Demo",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\CS\\Demo\\wwwroot\\",
       "BasePath": "_content/Demo",
-      "RelativePath": "assets/1eiWYPKI.mp4",
+      "RelativePath": "assets/8D6-QPBy.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,7 +71,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\1eiWYPKI.mp4"
+      "OriginalItemSpec": "wwwroot\\assets\\8D6-QPBy.mp4"
     },
     {
       "Identity": "D:\\CS\\Demo\\wwwroot\\assets\\X_4kVLY-.jpg",

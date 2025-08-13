@@ -30,3 +30,9 @@ D:\CS\Demo\obj\Debug\net8.0\staticwebassets\msbuild.build.Demo.props
 D:\CS\Demo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Demo.props
 D:\CS\Demo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Demo.props
 D:\CS\Demo\obj\Debug\net8.0\staticwebassets.pack.json
+D:\CS\Demo\bin\Debug\net8.0\out\web.config
+D:\CS\Demo\bin\Debug\net8.0\out\appsettings.Development.json
+D:\CS\Demo\bin\Debug\net8.0\out\appsettings.json
+D:\CS\Demo\bin\Debug\net8.0\out\Demo.deps.json
+D:\CS\Demo\bin\Debug\net8.0\out\Demo.runtimeconfig.json
+D:\CS\Demo\obj\Debug\net8.0\Demo.sourcelink.json
