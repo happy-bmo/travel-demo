@@ -1,0 +1,12 @@
+D:\CS\Demo\obj\Release\net8.0\PubTmp\Out\Demo.exe
+D:\CS\Demo\obj\Release\net8.0\PubTmp\Out\out\web.config
+D:\CS\Demo\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\CS\Demo\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\CS\Demo\obj\Release\net8.0\PubTmp\Out\out\appsettings.Development.json
+D:\CS\Demo\obj\Release\net8.0\PubTmp\Out\out\appsettings.json
+D:\CS\Demo\obj\Release\net8.0\PubTmp\Out\out\Demo.deps.json
+D:\CS\Demo\obj\Release\net8.0\PubTmp\Out\out\Demo.runtimeconfig.json
+D:\CS\Demo\obj\Release\net8.0\PubTmp\Out\Demo.dll
+D:\CS\Demo\obj\Release\net8.0\PubTmp\Out\Demo.deps.json
+D:\CS\Demo\obj\Release\net8.0\PubTmp\Out\Demo.runtimeconfig.json
+D:\CS\Demo\obj\Release\net8.0\PubTmp\Out\Demo.pdb

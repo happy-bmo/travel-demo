@@ -1,0 +1,175 @@
+/* _content/Demo/Views/Home/Index.cshtml.rz.scp.css */
+.hero-video[b-716qj0wgyg] {
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.hero-bg[b-716qj0wgyg] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay[b-716qj0wgyg] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.4) 100%);
+    pointer-events: none;
+}
+
+.hero-content[b-716qj0wgyg] {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+}
+
+    .hero-content h1[b-716qj0wgyg] {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    }
+
+    .hero-content p[b-716qj0wgyg] {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+        text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    }
+
+
+.title[b-716qj0wgyg] {
+    text-align: center;
+}
+
+.icon[b-716qj0wgyg] {
+    height: 20px;
+    width: 20px;
+}
+
+
+.itinerary-toggle[b-716qj0wgyg] {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    margin: 20px 0;
+    color: black;
+}
+
+.toggle-itinerary-btn[b-716qj0wgyg] {
+    background: transparent;
+    color: black;
+}
+
+.accordion-item[b-716qj0wgyg] {
+    margin: 10px 0;
+    border: none;
+}
+
+.accordion-button[b-716qj0wgyg] {
+    background-color: #f5f5f5;
+    color: #333;
+    font-weight: bold;
+}
+
+.accordion-collapse[b-716qj0wgyg] {
+    border-left: 1px solid #ccc;
+}
+/* _content/Demo/Views/Shared/_Header.cshtml.rz.scp.css */
+.header[b-umtn7bc2v3] {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 130px;
+    background-color: #21544F;
+    z-index: 50;
+}
+    .header .header-logo[b-umtn7bc2v3] {
+        width: 110px !important;
+        height: 110px !important;
+    }
+
+.dropdown-toggle[b-umtn7bc2v3] {
+    background: transparent;
+    outline: none;
+}
+
+.dropdown-menu[b-umtn7bc2v3] {
+    background: #2E6D66;
+    color: white;
+}
+
+.dropdown-item[b-umtn7bc2v3] {
+    color: white;
+}
+
+    .dropdown-item:hover[b-umtn7bc2v3] {
+        background: #183B38;
+        color: white;
+    }
+/* _content/Demo/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+*[b-xwylo3ageb] {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+a.navbar-brand[b-xwylo3ageb] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-xwylo3ageb] {
+  color: #0077cc;
+}
+
+.btn-primary[b-xwylo3ageb] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-xwylo3ageb], .nav-pills .show > .nav-link[b-xwylo3ageb] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-xwylo3ageb] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-xwylo3ageb] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-xwylo3ageb] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-xwylo3ageb] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-xwylo3ageb] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

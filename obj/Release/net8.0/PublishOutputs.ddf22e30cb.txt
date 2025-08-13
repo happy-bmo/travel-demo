@@ -1,0 +1,7 @@
+D:\CS\Demo\out\Demo.exe
+D:\CS\Demo\out\appsettings.Development.json
+D:\CS\Demo\out\appsettings.json
+D:\CS\Demo\out\Demo.dll
+D:\CS\Demo\out\Demo.deps.json
+D:\CS\Demo\out\Demo.runtimeconfig.json
+D:\CS\Demo\out\Demo.pdb

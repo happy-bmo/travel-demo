@@ -1,0 +1,31 @@
+.header[b-umtn7bc2v3] {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 130px;
+    background-color: #21544F;
+    z-index: 50;
+}
+    .header .header-logo[b-umtn7bc2v3] {
+        width: 110px !important;
+        height: 110px !important;
+    }
+
+.dropdown-toggle[b-umtn7bc2v3] {
+    background: transparent;
+    outline: none;
+}
+
+.dropdown-menu[b-umtn7bc2v3] {
+    background: #2E6D66;
+    color: white;
+}
+
+.dropdown-item[b-umtn7bc2v3] {
+    color: white;
+}
+
+    .dropdown-item:hover[b-umtn7bc2v3] {
+        background: #183B38;
+        color: white;
+    }
